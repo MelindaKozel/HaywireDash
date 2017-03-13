@@ -1,0 +1,46 @@
+/* ----------------------------------- */
+/* ---------- MEDIA QUERIES ---------- */
+/* ----------------------------------- */
+
+@media (min-width: 680px) {
+	#logo + nav ul {
+		display: block;
+		visibility: visible;
+	}
+	#hamburger {
+		display: none;
+		visibility: hidden;
+	}
+	.menuitem {
+		width: 44%;
+	}
+	section#aboutsection .aboutlist {
+		justify-content: center;
+	}
+	.aboutlist .menuitem {
+		margin: 3em 1.2em 0;
+	}
+	#bio article {
+		max-width: 65%;
+	}
+	#bio aside {
+		max-width: 30%;
+	}
+}
+
+@media (min-width: 960px) {
+	.container {
+		box-sizing: border-box;
+	}
+	.menuitem {
+		width: 29%;
+	}
+	section#aboutsection .aboutlist {
+		justify-content: space-between;
+	}
+	.aboutlist .menuitem {
+		margin: 3em 0 0;
+	}
+}
+
+

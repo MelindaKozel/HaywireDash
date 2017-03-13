@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* --------------------------------------- */
+/* ---------- TYPOGRAPHY STYLES ---------- */
+/* --------------------------------------- */
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 22px;
+}
+
+p, ul, li, form, input, textarea, #menu, #submitbutton, #homebutton, .intro-subhead, figure, figcaption {
+	font-family: "Merriweather", "Georgia", Serif;
+}
+
+h1, h2, h3, h4, h5, h6, nav ul li, .title, .footernav, p.backtotop {
+	font-family: "Pathway Gothic One", Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, a, input, form, span, div {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p, ul, li {
+	font-size: .7rem;
+	line-height: 1.6em;
+	margin-bottom: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6, nav ul li {
+	text-align: center;
+	line-height: 1em;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 2.6rem;
+	text-decoration: none;
+	margin: 1em auto .3em;
+	width: 100%;
+	letter-spacing: .05rem;
+}
+
+.subhead {
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	margin-top: 1%;
+	line-height: 1.4em;
+	-webkit-transition: color .4s ease;
+	transition: color .4s ease;
+}
+
+.subhead a {
+	color: #fff;
+	-webkit-transition: color .4s ease;
+	transition: color .4s ease;
+}
+
+h5 a:hover, #bio a:hover, #email:hover, a h5:hover, .disclaimer a:hover, p a:hover, .menuitem a:hover{
+	color: #ffda39;
+}
+
+h2, h3 {
+	font-size: 1.8rem;
+	color: #fff;
+	clear: both;
+	margin: 1em 0% .5em 0%;
+	display: block;
+	line-height: 1.4em;
+	letter-spacing: .05rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+a {
+	color: #fff;
+}
+
+p a{
+	color: #fff;
+	transition: color .7s ease;
+	-webkit-transition: color .7s ease;
+}
+
+.highlight {
+	color: #ffda39;
+}
+
+#bio .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+#bio h3 {
+	margin: 0 0 .5em;
+	text-align: left;
+}
+
+#bio p{
+	color: #fff;
+}
+
+#bio a{
+	text-decoration: underline;
+	color: #fff;
+}
+
+#bio aside {
+	display: block;
+	margin: 0 auto;
+}
+
+#bio aside, #bio article {
+	margin-top: 2em;
+}
+
+.italics, em, i {
+	font-style: italic;
+}
+
+.bold, b, strong{
+	font-weight: bold;
+}
+
+.title {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	font-style: normal;
+}
+
+.fineprint, figcaption {
+	font-size: .6em;
+	text-align: center;
+	width: 100%;
+	display: block;
+	color: #fff;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.bigger {
+	font-size: 150%;
+	border-top: 1px #fff solid;
+	width: 100%;
+	margin: 5% auto 3% auto;
+	padding-top: 3%;
+}
+
+#menu h3 {
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+}
+
+a h5 {
+	color: #fff;
+	transition: color .7s ease;
+	-webkit-transition: color .7s ease;
+}
+
+.disclaimer a {
+	color: #fff;
+	text-decoration: underline;
+	-webkit-transition: color .7s ease;
+	transition: color .7s ease;
+}
+
+.sidebarList {
+	margin-left: 2vw;
+	margin-top: 2vh;
+	max-with: 380px;
+}
+
+.sidebarListItem {
+	font-family: "Pathway Gothic One", Verdana, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.singleItemDescription {
+	font-family: "Merriweather", "Georgia", Serif;
+	color: white;
+	font-size: .8em;
+}

@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$("#hamburger").on("click",function(){$("#mobilemenu").delay(400).slideToggle(300),$(".burger-top").toggleClass("top-rotate"),$(".burger-bottom").toggleClass("bottom-rotate"),$(".burger-middle").toggleClass("slide-out"),$(this).toggleClass("fullrotate")})});
